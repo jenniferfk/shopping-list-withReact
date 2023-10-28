@@ -1,38 +1,57 @@
-.App {
+html{
+  background-color:black;
+}
+h1 {
+  margin: 0 auto;
   text-align: center;
+  max-width: 400px;
+  color:red;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  color:red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.listcontainer{
+  margin-top: 2%;
+  background-color: white;
+  border: 2px solid red;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  max-width: 400px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  margin-bottom: 5%;
+}
+.removeitem{
+  background:none;
+  border:none;
+  color:red;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+li {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-left:15%;
+  width: 200px;
 }
-
-.App-link {
-  color: #61dafb;
+.pdfdownload{
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  margin-top:3%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.downloadbttn{
+  background-color: red;
+  color:white;
+  border-radius:10px;
+  cursor: pointer;
+  border:none;
+  padding: 10px;
+}
+.downloadbttn:hover{
+color:black;
 }
